@@ -2373,7 +2373,7 @@ path separator and the handling of UNC paths. The sample below outlines the diff
 ```ts
 const u = URI.parse('file://server/c$/folder/file.txt')
 u.authority === 'server'
-u.path === '/shares/c$/file.txt'
+u.path === '/c$/folder/file.txt'
 u.fsPath === '\\server\c$\folder\file.txt'
 ```">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fsPath</div><div class="col bg-success" title="theia/master"><i class="fa fa-check"></i></div><div class="col bg-success" title="theia/v1.47.1"><i class="fa fa-check"></i></div><div class="col bg-success" title="theia/v1.47.0"><i class="fa fa-check"></i></div><div class="col bg-info" title="vscode/main"><i class="fa fa-check"></i></div><div class="col bg-info" title="vscode/1.87.2"><i class="fa fa-check"></i></div><div class="col bg-info" title="vscode/1.86.2"><i class="fa fa-check"></i></div><div class="col bg-info" title="vscode/1.85.2"><i class="fa fa-check"></i></div><div class="col bg-info" title="vscode/1.84.2"><i class="fa fa-check"></i></div></div><div class="row bg-info"><div class="col-4 command" title="Derive a new Uri from this Uri.
 
